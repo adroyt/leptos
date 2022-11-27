@@ -1,0 +1,14 @@
+/target
+.DS_Store
+node_modules
+/build
+/dist
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins

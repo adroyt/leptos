@@ -1,0 +1,19 @@
+{
+  "name": "leptos-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "unocss \"src/**/*.rs\" --watch",
+    "build": "unocss \"src/**/*.rs\" --out-file ./dist/uno.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@unocss/cli": "^0.46.5"
+  },
+  "dependencies": {
+    "unocss": "^0.46.5"
+  }
+}
